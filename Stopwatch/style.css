@@ -1,0 +1,43 @@
+.Ueberschrift {
+  color: #F28482;
+  display: inline-block;
+}
+
+.Content {
+  display: inline-block;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30PX;
+  margin-top: 100px;
+  border-radius: 8px;
+  background-color: #F5CAC3;
+  font-family: Helvetica, sans-serif, Arial ;
+
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px;
+  
+}
+
+.start-button, .stop-button, .Reset {
+  background-color: #F7EDE2;
+  border-style: hidden;
+  border-radius: 2px;
+  flex-grow: 1;
+  margin: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.start-button:hover, .stop-button:hover, .Reset:hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: #F7EDE2;
+  text-align: center;
+}
