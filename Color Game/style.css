@@ -1,0 +1,67 @@
+body {
+  background-color: #5C4B51;
+  text-align: center;
+}
+
+.Content {
+  display: inline-block;
+  background-color: #8CBEB2;
+  font-family: monospace;
+  width: 80%;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+#Top {
+  display: inline-block;
+  background-color: #F2EBBF;
+  width: 90%;
+  border-radius: 40px;
+}
+
+#Guess {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.Bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Box {
+  width: 160px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: white;
+}
+
+.Box:hover {
+  cursor: pointer;
+  width: 170px;
+  height: 110px;
+}
+
+#one {
+  background-color: rgb(116, 37, 37);
+}
+#two {
+  background-color: rgb(87, 11, 11);
+}
+#three {
+  background-color: rgb(10, 170, 103);
+}
+#four {
+  background-color: rgb(112, 18, 62);
+}
+#five {
+  background-color: rgb(180, 211, 8);
+}
+#six {
+  background-color: rgb(128, 196, 18);
+}
