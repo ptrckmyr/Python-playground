@@ -13,14 +13,14 @@ body {
 
 }
 
-#Top {
+.Top {
   display: inline-block;
   background-color: #F2EBBF;
   width: 90%;
   border-radius: 40px;
 }
 
-#Guess {
+.Guess {
   margin-top: 10px;
   margin-bottom: 10px;
   
@@ -47,21 +47,6 @@ body {
   height: 110px;
 }
 
-#one {
-  background-color: rgb(100, 0, 100);
-}
-#two {
-  background-color: rgb(83, 42, 42);
-}
-#three {
-  background-color: rgb(41, 116, 85);
-}
-#four {
-  background-color: rgb(112, 18, 62);
-}
-#five {
-  background-color: rgb(219, 77, 42);
-}
-#six {
-  background-color: rgb(5, 27, 124);
+#one #two #three #four #five #six{ 
+  background-color: rgb(156, 6, 156);
 }
