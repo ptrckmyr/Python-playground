@@ -12,7 +12,7 @@ function randomRGB() {
   return RGBColor
 }
 
-// Die Funktion auf die verschiedenen Farb-Variablen übertragen
+// Die Funktion auf die verschiedenen Farb-Variablen übertragen 
 color_one = randomRGB();
 color_two = randomRGB();
 color_three = randomRGB();
