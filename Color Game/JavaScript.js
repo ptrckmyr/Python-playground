@@ -10,7 +10,11 @@ function randomRGB() {
 }
 
 color_one = randomRGB();
-color_four = "rgb(166,193,78)";
+color_two = randomRGB();
+color_three = randomRGB();
+color_four = randomRGB();
+color_five = randomRGB();
+color_six = randomRGB();
 
 
 // Variablen in HTML übertragen
